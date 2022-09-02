@@ -7,7 +7,6 @@ frame_width = int( cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 frame_height =int( cap.get( cv2.CAP_PROP_FRAME_HEIGHT))
 
 fourcc = cv2.VideoWriter_fourcc('X','V','I','D')
-,
 
 ret, frame1 = cap.read()
 ret, frame2 = cap.read()
